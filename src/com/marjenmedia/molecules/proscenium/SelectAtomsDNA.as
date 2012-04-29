@@ -165,11 +165,11 @@ public class SelectAtomsDNA extends SelectAtoms implements ISelectAtomsDNA
 			var select:*    =  selectArray[i];
 			
 			 
-			if(selectionType == "aninoAcidNum"){			 
+			if(selectionType == "nucleotideNum"){			 
 				var returnArray1 :Array =  selectNucleotideNum(atomArray , select);
 				selectedArray = selectedArray.concat(returnArray1);
 			}
-			if(selectionType == "aninoAcidName"){			 
+			if(selectionType == "nucleotideName"){			 
 				var returnArray2 :Array =  selectNucleotideName(atomArray , select);
 				selectedArray = selectedArray.concat(returnArray2);
 			}
